@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: apps/loki
+    path: loki
     repoURL: https://github.com/jiri-jelinek-mav/argo.git
     targetRevision: HEAD
   syncPolicy:
