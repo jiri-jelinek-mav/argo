@@ -145,9 +145,9 @@ spec:
             - mountPath: /etc/machine-id
               name: machine-id
               readOnly: true
-            #- mountPath: /var/log/kubernetes-audit/
-            #  name: kubenetes-audit
-            #  readOnly: true
+            - mountPath: /var/log/kubernetes-audit/
+              name: kubenetes-audit
+              readOnly: true
           env:
             - name: HOSTNAME
               valueFrom:
